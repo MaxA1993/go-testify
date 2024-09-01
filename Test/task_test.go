@@ -63,3 +63,5 @@ func TestMainHandlerWhenCountMoreThanTotal(t *testing.T) {
 	expectedBody := "Мир кофе,Сладкоежка,Кофе и завтраки,Сытый студент"
 	assert.Equal(t, expectedBody, responseRecorder.Body.String(), "Неверное тело ответа")
 }
+
+//
