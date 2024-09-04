@@ -1,4 +1,4 @@
-package precode
+package main
 
 import (
 	"net/http"
